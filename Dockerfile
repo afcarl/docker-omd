@@ -9,7 +9,7 @@ RUN apt-get update && apt-get -y install \
     librpmbuild3 librpmio3 librpmsign1 libsmbclient libsnmp-perl libtalloc2 libtdb1 libtevent0 libwbclient0 \
     lsof patch php-pear php5-cgi php5-cli php5-common php5-gd php5-json php5-mcrypt php5-readline php5-sqlite \
     pyro python-crypto python-ldap python-ldb python-ntdb python-samba python-support python-talloc python-tdb \
-    rpm rpm-common rpm2cpio rsync samba-common samba-common-bin samba-libs smbclient snmp unzip update-inetd xinetd
+    rpm rpm-common rpm2cpio rsync samba-common samba-common-bin samba-libs smbclient snmp unzip update-inetd xinetd \
  && apt-get upgrade -y
 ADD http://support.mathias-kettner.de/1.2.5i5p3/omd-1.2.5i5p3.dmmk_0.trusty_amd64.deb /
 #RUN apt-get install -y gdebi
